@@ -18,13 +18,7 @@ namespace MapBuilder
 
             //Program
 
-            while (true)
-            {
-                Console.Clear();
-                grid.GridBuild();
-                Console.ReadKey();
-            }
-
+            grid.GridBuild();
         }
     }
 }
